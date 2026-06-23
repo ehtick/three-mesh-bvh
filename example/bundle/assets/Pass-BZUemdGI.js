@@ -1,0 +1,2 @@
+import{Bt as e,J as t,_ as n,nn as r}from"./ExtendedTriangle-cvTTtm2k.js";var i=new r(-1,1,1,-1,0,1),a=new class extends n{constructor(){super(),this.setAttribute(`position`,new t([-1,3,0,-1,-1,0,3,-1,0],3)),this.setAttribute(`uv`,new t([0,2,0,0,2,0],2))}},o=class{constructor(t){this._mesh=new e(a,t)}dispose(){this._mesh.geometry.dispose()}render(e){e.render(this._mesh,i)}get material(){return this._mesh.material}set material(e){this._mesh.material=e}};export{o as t};
+//# sourceMappingURL=Pass-BZUemdGI.js.map
